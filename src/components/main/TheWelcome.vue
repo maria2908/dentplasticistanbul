@@ -18,7 +18,7 @@ const scrollToFeedback = () => {
     </div>
     <div class="w-full lg:w-1/3 lg:ml-12">
       <div class="bg-customDarkBeg rounded-2xl p-5 lg:mt-24 text-white">
-        <h2 class="text-3xl sm:text-4xl lg:text-6xl capitalize font-semibold">
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl capitalize font-semibold">
           {{ $t('main-page.welcome.title') }}
         </h2>
         <div class="flex flex-wrap justify-between mt-4 sm:mt-8 text-sm sm:text-base">
