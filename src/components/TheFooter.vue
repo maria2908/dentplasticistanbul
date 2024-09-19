@@ -27,11 +27,11 @@
 
       <div class="row">
         <ul>
-          <li><a href="#">{{ $t('menu.main') }}</a></li>
-          <li><a href="#">{{ $t('menu.dentistry') }}</a></li>
-          <li><a href="#">{{ $t('menu.plastic-surgery') }}</a></li>
-          <li><a href="#">{{ $t('menu.breast-enlargement') }}</a></li>
-          <li><a href="#">{{ $t('menu.liposuction') }}</a></li>
+          <li><router-link to="/">{{ $t('menu.main') }}</router-link></li>
+          <li><router-link to="/dentistry">{{ $t('menu.dentistry') }}</router-link></li>
+          <li><router-link to="/plastic-surgery">{{ $t('menu.plastic-surgery') }}</router-link></li>
+          <li><router-link to="/breast-enlargement">{{ $t('menu.breast-enlargement') }}</router-link></li>
+          <li><router-link to="/liposuction">{{ $t('menu.liposuction') }}</router-link></li>
         </ul>
       </div>
 
