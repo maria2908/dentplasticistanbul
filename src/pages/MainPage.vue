@@ -19,7 +19,7 @@ onMounted(() => {
 
 <template>
   <main-container>
-    <the-welcome></the-welcome>
+<!--    <the-welcome></the-welcome>-->
     <the-statistics></the-statistics>
   </main-container>
   <our-standarts></our-standarts>
@@ -32,7 +32,7 @@ onMounted(() => {
     <peculiaritie-accommodation></peculiaritie-accommodation>
     <translation-contact></translation-contact>
   </main-container>
-  <plan-time></plan-time>
+<!--  <plan-time></plan-time>-->
   <main-container id="feedback-section">
     <the-feedback ></the-feedback>
   </main-container>
