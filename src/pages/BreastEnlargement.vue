@@ -14,10 +14,12 @@ onMounted(() => {
 
 <template>
   <main-container>
-    <TheMain />
-    <WhichClinics />
-    <HowBreastIstDone />
-    <HowGoesTheVisit />
-    <WhyDentplastistanbul />
+    <TheMain/>
+    <div class="px-4 md:px-0">
+      <WhichClinics/>
+      <HowBreastIstDone/>
+      <HowGoesTheVisit/>
+      <WhyDentplastistanbul/>
+    </div>
   </main-container>
 </template>

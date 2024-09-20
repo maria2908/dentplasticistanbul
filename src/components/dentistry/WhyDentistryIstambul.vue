@@ -4,11 +4,12 @@
     {{ $t('dentistry.why-dentplastistanbul.title')}}
   </h1>
 
+<div class="px-4 md:px-0 text-sm sm:text-base">
   <!-- Introductory Paragraph -->
-  <p class="mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-1/2 pb-6 ">{{ $t('dentistry.why-dentplastistanbul.text')}} </p>
+  <p class="mx-auto md:text-center md:text-lg w-full sm:w-3/4 md:w-2/3 lg:w-1/2 pb-6 ">{{ $t('dentistry.why-dentplastistanbul.text')}} </p>
 
   <!-- Benefits Paragraph -->
-  <p class="p-6 mt-6 text-md md:text-lg lg:text-xl text-white bg-customBeg mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-fit rounded-2xl">
+  <p class="p-6 md:mt-6 text-sm sm:text-base md:text-lg text-white bg-customBeg mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-fit rounded-2xl">
     {{ $t('dentistry.why-dentplastistanbul.sub-title')}}
   </p>
 
@@ -24,6 +25,7 @@
       <li>{{ $t('dentistry.why-dentplastistanbul.text-7')}} </li>
     </ol>
   </div>
+</div>
 </template>
 
 <style scoped lang="scss">

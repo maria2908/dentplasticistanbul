@@ -3,23 +3,25 @@
     {{ $t('liposuction.why-dentplastistanbul.title') }}
   </h1>
 
-  <p class="mx-auto lg:text-center md:text-justify w-full sm:w-3/4 md:w-2/3 lg:w-2/3 pb-6 text-justify sm:text-justify">
-    {{ $t('liposuction.why-dentplastistanbul.text') }}
-  </p>
+  <div class="justify text-sm sm:text-base">
+    <p class="mx-auto lg:text-center w-full sm:w-3/4 md:w-2/3 lg:w-2/3 pb-6 text-justify sm:text-justify">
+      {{ $t('liposuction.why-dentplastistanbul.text') }}
+    </p>
 
-  <p class="p-6 mt-6 text-md md:text-lg lg:text-xl text-white bg-customBeg mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-fit rounded-2xl">
-    {{ $t('liposuction.why-dentplastistanbul.sub-title') }}
-  </p>
+    <p class="p-6 mt-6 justify text-sm sm:text-base lg:text-xl text-white bg-customBeg mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-fit rounded-2xl">
+      {{ $t('liposuction.why-dentplastistanbul.sub-title') }}
+    </p>
 
-  <div class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 pt-10 mx-auto">
-    <ol class="gradient-list">
-      <li>{{ $t('liposuction.why-dentplastistanbul.list.text-1') }}</li>
-      <li>{{ $t('liposuction.why-dentplastistanbul.list.text-2') }}</li>
-      <li>{{ $t('liposuction.why-dentplastistanbul.list.text-3') }}</li>
-      <li>{{ $t('liposuction.why-dentplastistanbul.list.text-4') }}</li>
-      <li>{{ $t('liposuction.why-dentplastistanbul.list.text-5') }}</li>
-      <li>{{ $t('liposuction.why-dentplastistanbul.list.text-6') }}</li>
-    </ol>
+    <div class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 pt-10 mx-auto">
+      <ol class="gradient-list">
+        <li>{{ $t('liposuction.why-dentplastistanbul.list.text-1') }}</li>
+        <li>{{ $t('liposuction.why-dentplastistanbul.list.text-2') }}</li>
+        <li>{{ $t('liposuction.why-dentplastistanbul.list.text-3') }}</li>
+        <li>{{ $t('liposuction.why-dentplastistanbul.list.text-4') }}</li>
+        <li>{{ $t('liposuction.why-dentplastistanbul.list.text-5') }}</li>
+        <li>{{ $t('liposuction.why-dentplastistanbul.list.text-6') }}</li>
+      </ol>
+    </div>
   </div>
 </template>
 

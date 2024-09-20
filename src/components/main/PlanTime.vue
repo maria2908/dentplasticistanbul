@@ -19,7 +19,7 @@ const slides = ref([
     <div class="w-full mb-6 md:mb-0">
       <div class="p-4 md:p-6 rounded-2xl bg-opacity-60 text-center">
         <h2 class="text-xl sm:text-2xl md:text-4xl capitalize">{{ $t('main-page.plan-time.title') }}</h2>
-        <p class="mt-4 text-sm sm:text-base md:text-lg pt-2 pb-4 md:pb-6">{{ $t('main-page.plan-time.text-1') }}</p>
+        <p class="mt-4 text-sm sm:text-base md:w-1/2 md:text-center mx-auto text-left pt-2 pb-4 md:pb-6">{{ $t('main-page.plan-time.text-1') }}</p>
       </div>
 
       <div class="bg-white rounded-2xl w-full md:w-auto flex flex-wrap justify-between">

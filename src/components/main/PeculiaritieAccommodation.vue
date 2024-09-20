@@ -44,8 +44,6 @@ const slides = ref([
   },
 
 ]);
-
-
 const settings = ref({
   itemsToShow: 1,
   snapAlign: 'center',
@@ -68,7 +66,7 @@ const settings = ref({
 
 <template>
   <h1 class="mt-12 text-center text-xl md:text-2xl lg:text-3xl">{{ $t('main-page.accommodation.title') }}</h1>
-  <p class="w-11/12 md:w-3/4 text-center mx-auto mb-12">{{ $t('main-page.accommodation.text') }}</p>
+  <p class="w-11/12 md:w-3/4 md:text-center mx-auto mb-12 text-left text-sm md:text-base">{{ $t('main-page.accommodation.text') }}</p>
   <Carousel v-bind="settings">
     <Slide v-for="(slide, index) in slides" :key="index" class="px-2 md:px-4 w-full h-48 md:h-72">
       <img class="w-full h-full object-cover rounded-lg" :src="slide.img">
@@ -79,7 +77,7 @@ const settings = ref({
       </div>
     </template>
   </Carousel>
-  <p class="w-11/12 md:w-3/4 text-center mx-auto mt-20">{{ $t('main-page.accommodation.subtitle') }}</p>
+  <p class="w-11/12 md:w-3/4 text-center mx-auto mt-10 md:mt-20 text-sm md:text-base">{{ $t('main-page.accommodation.subtitle') }}</p>
 </template>
 
 <style lang="scss">

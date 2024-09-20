@@ -62,10 +62,10 @@ const breakpoints = ref({
 
 
 <template>
-  <h1 class="text-center text-xl md:text-2xl lg:text-3xl mb-4">{{ $t('main-page.services.title') }}</h1>
+  <h1 class="text-center text-xl md:text-2xl lg:text-3xl mb-0 md:mb-4">{{ $t('main-page.services.title') }}</h1>
   <div class="flex flex-col lg:flex-row gap-8 items-center md:items-start">
     <!-- Text section that will adapt flexibly -->
-    <div class="w-full lg:w-1/3 p-6 rounded-2xl h-auto text-justify bg-gray-100">
+    <div class="w-full lg:w-1/3 p-6 rounded-2xl h-auto text-left bg-gray-100 text-sm md:text-base">
       <p>{{ $t('main-page.services.text-1') }}</p>
       <p class="mt-8 md:mt-16">{{ $t('main-page.services.text-2') }}</p>
     </div>

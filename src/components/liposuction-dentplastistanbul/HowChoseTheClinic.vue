@@ -1,9 +1,9 @@
 <template>
-  <h1 class="mt-12 text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center">
+  <h1 class="md:mt-12 text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center">
     {{ $t('liposuction.chose-clinic.title') }}
   </h1>
 
-  <div class="flex flex-col lg:flex-row text-justify">
+  <div class="flex flex-col lg:flex-row text-justify justify text-sm sm:text-base">
     <div class="w-full lg:w-1/2 p-4 sm:p-6 md:p-8">
       <Accordion value="0">
         <AccordionPanel value="0">
@@ -34,7 +34,7 @@
     </div>
 
     <div
-        class="w-full lg:w-1/2 p-4 sm:p-6 md:p-8 flex bg-customDark text-white flex-col items-center justify-center space-y-4 rounded-2xl mt-8 lg:mt-0 lg:ml-8"
+        class="w-full lg:w-1/2 p-8 flex bg-customDark text-white flex-col items-center justify-center space-y-4 rounded-2xl md:mt-8 lg:mt-0 lg:ml-8"
     >
       <p>{{ $t('liposuction.chose-clinic.text-1') }}</p>
       <p class="pt-12">{{ $t('liposuction.chose-clinic.text-2') }}</p>

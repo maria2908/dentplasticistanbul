@@ -18,7 +18,7 @@ const scrollToFeedback = () => {
     </div>
     <div class="w-full lg:w-1/3 lg:ml-12">
       <div class="bg-customDarkBeg rounded-2xl p-5 lg:mt-24 text-white">
-        <h2 class="text-2xl sm:text-4xl lg:text-6xl capitalize font-semibold">
+        <h2 class="text-2xl sm:text-4xl lg:text-5xl capitalize font-semibold">
           {{ $t('main-page.welcome.title') }}
         </h2>
         <div class="flex flex-wrap justify-between mt-4 sm:mt-8 text-sm sm:text-base">
@@ -27,8 +27,8 @@ const scrollToFeedback = () => {
           <p>{{ $t('main-page.welcome.sub-title-3') }}</p>
         </div>
       </div>
-      <div class="flex flex-col sm:flex-row justify-between my-8 lg:my-11 items-center">
-        <div class="flex space-x-2">
+      <div class="flex sm:flex-row justify-between my-8 lg:my-11 items-center px-2">
+        <div class="flex mt-4 space-x-2 md:mt-0">
           <img class="w-12 h-12 rounded-3xl"
                src="https://black-pearl-storage.storage.yandexcloud.net/public/images/0ivvwt6MxwfNvLMuL8b0wlbVKW5VxMWu4hOiW90a.jpg"/>
           <img class="w-12 h-12 rounded-3xl"

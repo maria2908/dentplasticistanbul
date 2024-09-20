@@ -5,16 +5,16 @@
   </h1>
 
   <!-- Introductory Paragraph -->
-  <p class="mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-1/2 pb-6 ">{{ $t('plastic.why-dentplastistanbul.text')}}
+  <p class="mx-auto md:text-center text-sm sm:text-base w-full sm:w-3/4 md:w-2/3 lg:w-1/2 pb-6">{{ $t('plastic.why-dentplastistanbul.text')}}
   </p>
 
   <!-- Benefits Paragraph -->
-  <p class="p-6 mt-6 text-md md:text-lg lg:text-xl text-white bg-customBeg mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-fit rounded-2xl">
+  <p class="p-6 md:mt-6 text-sm sm:text-base text-white bg-customBeg mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-fit rounded-2xl">
     {{ $t('plastic.why-dentplastistanbul.sub-title')}}
   </p>
 
   <!-- Benefits List -->
-  <div class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 pt-10 mx-auto">
+  <div class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 pt-10 mx-auto text-sm sm:text-base">
     <ol class="gradient-list">
       <li>{{ $t('plastic.why-dentplastistanbul.text-1')}}</li>
       <li>{{ $t('plastic.why-dentplastistanbul.text-2')}}</li>

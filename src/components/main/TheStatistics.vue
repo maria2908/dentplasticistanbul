@@ -1,8 +1,8 @@
 <template>
-  <div class="w-full block mt-12">
+  <div class="w-full block lg:mt-5 md:mt-3">
     <!-- Main Section -->
-    <div class="bg-white rounded-2xl p-8 mb-12">
-      <h2 class="mb-8 sm:lg text-xl lg:text-3xl">{{$t('main-page.statistic.title')}}</h2>
+    <div class="bg-white rounded-2xl p-8 lg:mb-12 md:mb-10 mb-0">
+      <h2 class="mb-8 text-sm lg:text-2xl">{{$t('main-page.statistic.title')}}</h2>
       <!-- Statistic List -->
       <ul class="deco-list flex flex-col md:flex-row justify-around mt-6">
         <li class="text-center">
@@ -21,7 +21,7 @@
     </div>
 
     <!-- Information Section -->
-    <div class="flex flex-col md:flex-row bg-white rounded-2xl p-8">
+    <div class="flex flex-col md:flex-row bg-white rounded-2xl p-8 text-sm md:text-base">
       <li class="w-full md:w-1/2 mb-6 md:mb-0">{{$t('main-page.statistic.text-1')}}</li>
       <li class="w-full md:w-1/2 md:ml-12">{{$t('main-page.statistic.text-2')}}</li>
     </div>

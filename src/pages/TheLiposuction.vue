@@ -15,11 +15,12 @@ onMounted(() => {
 
 <template>
   <main-container>
-    <TheMain />
-    <TheProcedures />
-
-    <HowChoseTheClinic />
-    <TheProcedure />
-    <WhyDentplastistanbul />
+    <TheMain/>
+    <div class="mx-4 md:mx-0">
+      <TheProcedures/>
+      <HowChoseTheClinic/>
+      <TheProcedure/>
+      <WhyDentplastistanbul/>
+    </div>
   </main-container>
 </template>

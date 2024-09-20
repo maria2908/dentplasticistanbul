@@ -51,8 +51,8 @@ const breakpoints = ref({
             <div class="w-16 h-16 bg-customDarkBeg text-white mx-auto text-2xl absolute -top-8 left-1/2 transform -translate-x-1/2 flex items-center justify-center rounded-full shadow-2">
               {{ slide.name.charAt(0) }}
             </div>
-            <div class="text-center mt-12 font-bold">{{ slide.name }} / {{ slide.date }}</div>
-            <div class=" mt-4 text-justify">{{ $t(slide.title) }}</div>
+            <div class="text-center mt-12 font-bold text-sm sm:text-base">{{ slide.name }} / {{ slide.date }}</div>
+            <div class=" mt-4 text-left text-sm sm:text-base">{{ $t(slide.title) }}</div>
             <div class="mx-auto my-3">
               <StarRating :initialRating="slide.stars" :totalStars="5" />
             </div>

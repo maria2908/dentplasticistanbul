@@ -55,7 +55,7 @@ onMounted(() => {
       <router-link
           v-for="(item) in menuItems"
           :key="item.id"
-          class="hover:bg-customGray hover:bg-opacity-30 rounded-3xl p-4 px-8"
+          class="hover:bg-customGray my-auto hover:bg-opacity-30 rounded-3xl p-4 px-8"
           :to="item.link"
       >
         {{ $t(item.text) }}

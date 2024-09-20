@@ -1,21 +1,21 @@
 <template>
   <!-- Main Heading -->
-  <h1 class="mt-12 text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center">
+  <h1 class="mt-12 text-lg sm:text-2xl md:text-3xl lg:text-4xl text-center">
     {{ $t('breast-enlargement.why-dentplastistanbul.title')}}
   </h1>
 
   <!-- Introductory Paragraph -->
-  <p class="mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-1/2 pb-6 ">
+  <p class="mx-auto text-center w-full justify text-sm sm:text-base sm:w-3/4 md:w-2/3 lg:w-1/2 pb-6 ">
     {{ $t('breast-enlargement.why-dentplastistanbul.text')}}
   </p>
 
   <!-- Benefits Paragraph -->
-  <p class="p-6 mt-6 text-md md:text-lg lg:text-xl text-white bg-customBeg mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-fit rounded-2xl">
+  <p class="p-6 md:mt-6 justify text-sm sm:text-base text-white bg-customBeg mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-fit rounded-2xl">
     {{ $t('breast-enlargement.why-dentplastistanbul.sub-title')}}
   </p>
 
   <!-- Benefits List -->
-  <div class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 pt-10 mx-auto">
+  <div class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 pt-10 mx-auto justify text-sm sm:text-base">
     <ol class="gradient-list">
       <li>{{ $t('breast-enlargement.why-dentplastistanbul.text-1')}}</li>
       <li>{{ $t('breast-enlargement.why-dentplastistanbul.text-2')}}</li>

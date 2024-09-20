@@ -5,10 +5,10 @@
   </h1>
 
   <!-- Main Content Area -->
-  <div class="flex flex-col lg:flex-row text-justify">
+  <div class="flex flex-col lg:flex-row text-justify text-sm sm:text-base">
     <!-- Accordion Section -->
     <div class="w-full lg:w-1/2 p-4 sm:p-6 md:p-8">
-      <p class="underline text-lg sm:text-xl text-center my-4 mb-8">
+      <p class="md:underline md:text-lg sm:text-xl md:text-center my-0 md:my-4 mb-8 md:mb-0 bg-customBeg md:bg-white p-6 md:p-0 rounded-2xl md:rounded-none">
         {{ $t('plastic.services.sub-title')}}
       </p>
       <Accordion value="0">
@@ -57,7 +57,7 @@
 
     <!-- Description Section -->
     <div
-        class="w-full lg:w-1/2 p-6 sm:p-8 md:p-12 flex bg-customDark text-white flex-col items-center justify-center space-y-4 rounded-2xl mt-8 lg:mt-0 lg:ml-8">
+        class="w-full lg:w-1/2 p-8 md:p-12 flex bg-customDark text-white flex-col items-center justify-center space-y-4 rounded-2xl mt-8 lg:mt-0 lg:ml-8">
       {{ $t('plastic.services.text')}}
 
     </div>

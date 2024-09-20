@@ -1,14 +1,14 @@
 <template>
   <!-- Main Heading -->
-  <h1 class="mt-12 text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center">
+  <h1 class=" text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center">
     {{ $t('dentistry.services.title')}}
   </h1>
 
   <!-- Main Content Area -->
-  <div class="flex flex-col lg:flex-row mt-4 text-justify">
+  <div class="flex flex-col lg:flex-row  md:text-justify text-sm sm:text-base">
     <!-- Accordion Section -->
     <div class="w-full lg:w-1/2 p-4 sm:p-6 md:p-8">
-      <p class="underline text-lg sm:text-xl text-center my-4 mb-8">
+      <p class="md:underline md:text-lg sm:text-xl md:text-center my-0 md:my-4 mb-8 md:mb-0 bg-customBeg md:bg-white p-6 md:p-0 rounded-2xl md:rounded-none">
         {{ $t('dentistry.services.sub-title')}}
       </p>
       <Accordion value="0">
@@ -40,8 +40,7 @@
     </div>
 
     <!-- Description Section -->
-    <div
-        class="w-full lg:w-1/2 p-4 sm:p-6 md:p-8 flex bg-customDark text-white flex-col items-center justify-center space-y-4 rounded-2xl mt-8 lg:mt-0 lg:ml-8">
+    <div class="w-full lg:w-1/2 p-6 sm:p-6 md:p-8 flex bg-customDark text-white flex-col items-center justify-center space-y-4 md:rounded-2xl mt-8 lg:mt-0 lg:ml-8 ">
       <p>
         {{ $t('dentistry.services.text-1')}}
       </p>
