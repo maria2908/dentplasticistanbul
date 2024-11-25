@@ -7,19 +7,21 @@ import 'vue3-carousel/dist/carousel.css'
 const slides = ref([
   {
     title: 'main-page.services.slider.title-1',
-    img: 'https://www.centerplast.de/wp-content/uploads/2024/02/behandlung-zum-facelifting.jpg'
+    img: 'https://www.centerplast.de/wp-content/uploads/2024/02/behandlung-zum-facelifting.jpg',
+    text: ''
   },
   {
     title: 'main-page.services.slider.title-2',
-    img: 'https://www.klmedestet.ru/wp-content/uploads/2017/05/mammo-2.jpg'
+    img: 'https://www.klmedestet.ru/wp-content/uploads/2017/05/mammo-2.jpg',
+    text: '> 2600$'
   },
   {
     title: 'main-page.services.slider.title-3',
-    img: 'https://novetilo.com.ua/images/2018/04/22/rhinoplasty1.png'
+    img: 'https://hrytsevychclinic.com/storage/cache/17101672635409-307x350.webp'
   },
   {
     title: 'main-page.services.slider.title-4',
-    img: 'https://drlupin.ru/wp-content/uploads/2020/07/plastic-surgeon-hold.jpg'
+    img: 'https://kim-rm.ru/assets/img/uslugi/%D0%9F%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0%20%D1%82%D0%B5%D0%BB%D0%B0.jpg'
   },
   {
     title: 'main-page.services.slider.title-5',
@@ -71,12 +73,14 @@ const breakpoints = ref({
     </div>
 
     <!-- Carousel section that will be flexible on all devices -->
-    <div class="w-full lg:w-2/3">
+    <div class="w-full lg:w-2/3 carousel-dent">
       <Carousel v-bind="settings" :breakpoints="breakpoints" class="w-full">
         <Slide v-for="slide in slides" :key="slide.title" class="p-4">
           <div class="carousel__item mx-auto text-center">
             <img :src="slide.img" class="h-72 mx-auto w-full max-w-xs rounded-xl shadow-lg" />
             <p class="w-full mt-4 text-justify text-sm md:text-base">{{$t(slide.title)}}</p>
+<!--            <p class="font-bold">{{$t('main-page.services.cost')}}</p>-->
+            <p></p>
           </div>
         </Slide>
 
@@ -96,20 +100,33 @@ const breakpoints = ref({
   justify-content: center;
 }
 .navi-services {
-  margin-top: 50px;
+  margin-top: 10px;
 
   .carousel__next {
-    margin-left: 40px;
+    margin-left: 70px;
   }
   .carousel__prev,
   .carousel__next {
+    margin-top: 20px;
     position: absolute;
     color: white;
     padding: 5px;
     background-color: #AD9173;
     border-radius: 40px;
-    left: 0% !important;
+    left: 0%;
     top: 100%;
   }
 }
+
+@media (max-width: 800px){
+  .carousel-dent {
+    .carousel__prev,
+    .carousel__next {
+      top: -7% !important;
+      left: 75% !important;
+    }
+  }
+
+}
+
 </style>

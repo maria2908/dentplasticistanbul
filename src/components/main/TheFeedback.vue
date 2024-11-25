@@ -89,22 +89,10 @@ const breakpoints = ref({
     background-color: #AD9173;
     border-radius: 40px;
     left: 5%;
-    top: 100%;
+    top: 90%;
   }
 }
 
-@media (max-width: 800px) {
-  .navi-services {
-    .carousel__next {
-      left: -10% !important;
-      top: 0;
-    }
 
-    .carousel__prev {
-      left: -10% !important;
-      top: 0;
-    }
-  }
-}
 
 </style>

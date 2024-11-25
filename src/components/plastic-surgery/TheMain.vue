@@ -44,4 +44,12 @@ h1:after {
   border-radius: 50%;
   box-shadow: -15px 15px #ffffff;
 }
+
+@media (max-width: 600px) {
+  h1:before, h1:after {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+}
 </style>
