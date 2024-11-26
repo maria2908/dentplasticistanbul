@@ -44,7 +44,7 @@ const breakpoints = ref({
 <template>
   <div class="mb-12">
     <h1 class="text-center text-xl md:text-2xl lg:text-3xl">{{ $t('main-page.feedback.title')}}</h1>
-    <div class="w-full pt-4">
+    <div class="w-full pt-4 feedback">
       <Carousel v-bind="settings" :breakpoints="breakpoints">
         <Slide v-for="(slide, index) in slides" :key="index" class=" flex">
           <div class="shadow mx-auto bg-white mt-9 rounded-2xl relative pt-4 px-6 w-3/4">
@@ -69,28 +69,31 @@ const breakpoints = ref({
 </template>
 
 <style lang="scss">
+.feedback {
+  .carousel__slide {
+    align-items: start;
+    justify-content: center;
+  }
+  .navi-services {
+    .carousel__next {
+      position: absolute;
+      left: 3% !important;
+      margin-left: 60px;
+    }
+    .carousel__prev, .carousel__next {
+      position: absolute;
+      color: white;
+      padding: 5px;
+      background-color: #AD9173;
+      border-radius: 40px;
+      left: 3% !important;
+      top: 90%;
+    }
+  }
+
+}
 .active-slide {
   box-shadow: 0px 1px 20px -13px rgba(66, 68, 90, 1);
-}
-.carousel__slide {
-  align-items: start;
-  justify-content: center;
-}
-.navi-services {
-  .carousel__next {
-    position: absolute;
-    left: 5% ;
-    margin-left: 60px;
-  }
-  .carousel__prev, .carousel__next {
-    position: absolute;
-    color: white;
-    padding: 5px;
-    background-color: #AD9173;
-    border-radius: 40px;
-    left: 5%;
-    top: 90%;
-  }
 }
 
 

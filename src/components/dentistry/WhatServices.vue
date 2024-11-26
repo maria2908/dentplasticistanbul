@@ -13,19 +13,19 @@
       </p>
       <Accordion value="0">
         <AccordionPanel value="0">
-          <AccordionHeader>{{ $t('dentistry.services.accordion.title-1')}}</AccordionHeader>
+          <AccordionHeader>{{ $t('dentistry.services.accordion.title-1')}} <div class="ml-20 bg-customPink p-2 rounded-2xl bg-opacity-40">> 250€</div></AccordionHeader>
           <AccordionContent>
-            <p class="m-0">{{ $t('dentistry.services.accordion.text-1')}}</p>
+            <p class="m-0">{{ $t('dentistry.services.accordion.text-1')}} </p>
           </AccordionContent>
         </AccordionPanel>
         <AccordionPanel value="1">
-          <AccordionHeader>{{ $t('dentistry.services.accordion.title-2')}}</AccordionHeader>
+          <AccordionHeader>{{ $t('dentistry.services.accordion.title-2')}} <div class="bg-customPink p-2 rounded-2xl bg-opacity-40">140€</div></AccordionHeader>
           <AccordionContent>
             <p class="m-0">{{ $t('dentistry.services.accordion.text-2')}}</p>
           </AccordionContent>
         </AccordionPanel>
         <AccordionPanel value="2">
-          <AccordionHeader>{{ $t('dentistry.services.accordion.title-3')}}</AccordionHeader>
+          <AccordionHeader>{{ $t('dentistry.services.accordion.title-3')}} <div class="bg-customPink p-2 rounded-2xl bg-opacity-40">250€</div></AccordionHeader>
           <AccordionContent>
             <p class="m-0">{{ $t('dentistry.services.accordion.text-3')}}</p>
           </AccordionContent>

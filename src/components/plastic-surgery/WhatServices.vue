@@ -12,8 +12,8 @@
         {{ $t('plastic.services.sub-title')}}
       </p>
       <Accordion value="0">
-        <AccordionPanel value="0">
-          <AccordionHeader>{{ $t('plastic.services.accordion.title-1')}}</AccordionHeader>
+        <AccordionPanel value="0" >
+          <AccordionHeader>{{ $t('plastic.services.accordion.title-1')}} <div class=" bg-customPink p-2 rounded-2xl bg-opacity-40">3500€</div></AccordionHeader>
           <AccordionContent>
             <p class="m-0">
               {{ $t('plastic.services.accordion.text-1')}}
@@ -21,7 +21,7 @@
           </AccordionContent>
         </AccordionPanel>
         <AccordionPanel value="1">
-          <AccordionHeader>{{ $t('plastic.services.accordion.title-2')}}</AccordionHeader>
+          <AccordionHeader>{{ $t('plastic.services.accordion.title-2')}} <div class="ml-6 bg-customPink p-2 rounded-2xl bg-opacity-40">3400€</div></AccordionHeader>
           <AccordionContent>
             <p class="m-0">
               {{ $t('plastic.services.accordion.text-2')}}
@@ -29,7 +29,7 @@
           </AccordionContent>
         </AccordionPanel>
         <AccordionPanel value="2">
-          <AccordionHeader>{{ $t('plastic.services.accordion.title-3')}} </AccordionHeader>
+          <AccordionHeader>{{ $t('plastic.services.accordion.title-3')}} <div class="ml-8 bg-customPink p-2 rounded-2xl bg-opacity-40">2500€</div></AccordionHeader>
           <AccordionContent>
             <p class="m-0">
               {{ $t('plastic.services.accordion.text-3')}}
@@ -37,7 +37,7 @@
           </AccordionContent>
         </AccordionPanel>
         <AccordionPanel value="3">
-          <AccordionHeader>{{ $t('plastic.services.accordion.title-4')}} </AccordionHeader>
+          <AccordionHeader>{{ $t('plastic.services.accordion.title-4')}} <div class="ml-12 bg-customPink p-2 rounded-2xl bg-opacity-40">> 2600€</div></AccordionHeader>
           <AccordionContent>
             <p class="m-0">
               {{ $t('plastic.services.accordion.text-4')}}
@@ -45,7 +45,7 @@
           </AccordionContent>
         </AccordionPanel>
         <AccordionPanel value="4">
-          <AccordionHeader>{{ $t('plastic.services.accordion.title-5')}}</AccordionHeader>
+          <AccordionHeader>{{ $t('plastic.services.accordion.title-5')}} <div class=" bg-customPink p-2 rounded-2xl bg-opacity-40">>3200€</div></AccordionHeader>
           <AccordionContent>
             <p class="m-0">
               {{ $t('plastic.services.accordion.text-5')}}
