@@ -2,6 +2,13 @@
   command = "npm run build"
   publish = "dist"
 
+# Принудительный редирект для robots.txt (должен быть ПЕРВЫМ)
+[[redirects]]
+  from = "/robots.txt"
+  to = "/robots.txt"
+  status = 200
+  force = true
+
 # Принудительный редирект для sitemap.xml (должен быть ПЕРВЫМ)
 [[redirects]]
   from = "/sitemap.xml"
